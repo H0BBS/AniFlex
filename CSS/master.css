@@ -1,0 +1,8 @@
+:root {
+  --Orange: #FF8D00;
+  --Black: #212121;
+}
+
+nav {background-color: var(--Black);}
+header {background-color:var(--Orange);}
+header {background-color:var(--Orange);}
