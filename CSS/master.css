@@ -8,6 +8,25 @@ nav {background-color: var(--Black);}
 header {background-color:var(--Black);}
 h1 {background-color:var(--Orange);}
 
+a:link {
+  color: #212121;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #212121;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFFFFF;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
 .flex {display: flex;}
 
 .film  {background-color:var(--Orange);
