@@ -29,6 +29,11 @@ a:hover {
 
 .flex {display: flex;}
 
+.flex2 {display: flex;
+       flex-wrap: wrap;
+       margin-left: 70px;
+}
+
 .film  {background-color:var(--Orange);
   height: 150px; width: 150px;
   margin: 15px;
