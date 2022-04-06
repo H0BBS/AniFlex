@@ -3,6 +3,14 @@
   --Black: #212121;
 }
 
+body {background-color: var(--Black);}
 nav {background-color: var(--Black);}
-header {background-color:var(--Orange);}
-header {background-color:var(--Orange);}
+header {background-color:var(--Black);}
+h1 {background-color:var(--Orange);}
+
+.flex {display: flex;}
+
+.film  {background-color:var(--Orange);
+  height: 150px; width: 150px;
+  margin: 15px;
+}
