@@ -41,5 +41,6 @@ a:hover {
 
 .film:hover {
   transform: scale(1.5);
+  transition-duration: 500ms;
   border-style: solid;
 }
