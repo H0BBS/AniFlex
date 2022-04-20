@@ -56,18 +56,42 @@ a:hover {
 #search{
 font: bold 30px Arial;
 background-color: #FFFFFF;
-color: white;
+color: black;
 
 }
 
 
+
+
+.bar{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+
 }
 
-#bar{
+.login{
 
-    display: inline-flex;
-    margin-right: auto;
+background-color: #FF8D00;
+width: 500px;
+height: 500px;
 
+}
 
+.signin{
+  
+justify-content: center;
+background-color: #FF8D00;
+width: 500px;
+height: 500px;
+
+}
+
+.sub{
+
+background-color: #FF8D00;
+width: 500px;
+height: 500px;
 
 }
