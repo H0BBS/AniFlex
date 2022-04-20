@@ -9,9 +9,27 @@
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
 
+
 }
 
 #search{
 font: bold 30px Arial;
+background-color: #FFFFFF;
+color: white;
+
+}
+
+*{
+
+background-color: black;
+
+}
+
+div{
+
+    display: inline-flex;
+    margin-right: auto;
+
+
 
 }
