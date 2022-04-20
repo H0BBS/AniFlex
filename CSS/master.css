@@ -8,7 +8,8 @@ nav {background-color: var(--Black);}
 header {background-color:var(--Black);}
 h1 {background-color:var(--Orange);}
 
-a:link {
+
+h1 a:link {
   color: #212121;
   background-color: transparent;
   text-decoration: none;
@@ -37,4 +38,36 @@ a:hover {
 .film  {background-color:var(--Orange);
   height: 150px; width: 150px;
   margin: 15px;
+}
+.button {
+  font: bold 30px Arial;
+  text-decoration: none;
+  background-color: #FF8D00;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+
+
+}
+
+#search{
+font: bold 30px Arial;
+background-color: #FFFFFF;
+color: white;
+
+}
+
+
+}
+
+#bar{
+
+    display: inline-flex;
+    margin-right: auto;
+
+
+
 }
