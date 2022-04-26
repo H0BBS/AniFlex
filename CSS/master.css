@@ -60,6 +60,20 @@ color: black;
 
 }
 
+#Sign{
+  font: bold 30px Arial;
+  background-color: #FFFFFF;
+  color: black;
+}
+
+.submit{
+  font: bold 25px Arial;
+  background-color: #FF8D00;
+  color: #212121;
+  margin-top: 75px;
+
+}
+
 
 
 
@@ -71,27 +85,47 @@ color: black;
 
 }
 
-.login{
 
-background-color: #FF8D00;
-width: 500px;
-height: 500px;
+.account{
 
-}
-
-.signin{
-  
 justify-content: center;
 background-color: #FF8D00;
 width: 500px;
 height: 500px;
+text-align: center;
+margin-top: 100px;
 
 }
 
 .sub{
 
 background-color: #FF8D00;
-width: 500px;
+margin-top: 100px;
+width: 600px;
 height: 500px;
+display: flex;
+justify-content: space-evenly;
+}
 
+table{
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+th{
+  font: bold 40px Arial;
+}
+
+
+
+.mainbody{
+
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+td{
+  font: bold 25px Arial;
 }
