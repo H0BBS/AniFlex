@@ -8,7 +8,8 @@ nav {background-color: var(--Black);}
 header {background-color:var(--Black);}
 h1 {background-color:var(--Orange);}
 
-a:link {
+
+h1 a:link {
   color: #212121;
   background-color: transparent;
   text-decoration: none;
@@ -30,17 +31,107 @@ a:hover {
 .flex {display: flex;}
 
 .flex2 {display: flex;
-       flex-wrap: wrap;
-       margin-left: 70px;
+  flex-wrap: wrap;
+  margin-left: 70px;
 }
 
 .film  {background-color:var(--Orange);
   height: 130px; width: 130px;
   margin: 15px;
 }
+ 
+.button {
+  font: bold 30px Arial;
+  text-decoration: none;
+  background-color: #FF8D00;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+
+
+}
+
+#search{
+  font: bold 30px Arial;
+  background-color: #FFFFFF;
+  color: black;
+
+}
+
+#Sign{
+  font: bold 30px Arial;
+  background-color: #FFFFFF;
+  color: black;
+}
+
+.submit{
+  font: bold 25px Arial;
+  background-color: #FF8D00;
+  color: #212121;
+  margin-top: 75px;
+
+}
+
+
+
+
+.bar{
+
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+
+}
+
+
+.account{
+
+  justify-content: center;
+  background-color: #FF8D00;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+.sub{
+
+  background-color: #FF8D00;
+  margin-top: 100px;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+table{
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+th{
+  font: bold 40px Arial;
+}
+
+
+
+.mainbody{
+
+  display: flex;
+  justify-content: space-evenly;
+
+}
+td{
+  font: bold 25px Arial;
 
 .film:hover {
   transform: scale(1.5);
   transition-duration: 500ms;
   border-style: solid;
+
 }
