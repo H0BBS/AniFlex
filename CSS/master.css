@@ -36,9 +36,10 @@ a:hover {
 }
 
 .film  {background-color:var(--Orange);
-  height: 150px; width: 150px;
+  height: 130px; width: 130px;
   margin: 15px;
 }
+ 
 .button {
   font: bold 30px Arial;
   text-decoration: none;
@@ -127,4 +128,10 @@ th{
 }
 td{
   font: bold 25px Arial;
+
+.film:hover {
+  transform: scale(1.5);
+  transition-duration: 500ms;
+  border-style: solid;
+
 }
